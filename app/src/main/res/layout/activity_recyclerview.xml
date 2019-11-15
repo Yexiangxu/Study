@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+        <TextView
+                android:id="@+id/tvChangeData"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="局部刷新"
+                android:background="@android:color/holo_blue_light"/>
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:itemCount="4"
+                android:clipToPadding="false"
+                tools:listitem="@layout/item_recyclerview"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

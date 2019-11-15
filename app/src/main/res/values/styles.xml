@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/black</item> <!--返回键处文字颜色-->
+        <item name="colorPrimary">@color/statusbar_maincolor</item> <!-- scrollview等滑动到底颜色、工具栏(标题栏)颜色-->
+        <item name="colorAccent">@color/statusbar_maincolor
+        </item>        <!--输入框 checkbox等获取焦点状态下颜色-->
+        <item name="colorPrimaryDark">@color/statusbar_maincolor</item>        <!--状态栏底色(电池栏)-->
+        <item name="editTextColor">@android:color/black</item><!--EditText 输入框中字体的颜色-->
+        <item name="android:divider">@android:color/darker_gray</item> <!--分割线颜色-->
+        <item name="android:textColorHint">@color/gray_bbbbbb</item>
+        <item name="android:textColor">@color/tv_maincolor</item>
+        <item name="android:windowBackground">@color/bg_maincolor</item> <!--背景色-->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:includeFontPadding">false</item>
+
+        <item name="colorControlNormal">@color/theme_colorControlNormal
+        </item><!--CheckBox，RadioButton等默认状态颜色-->
+        <item name="colorControlHighlight">@color/theme_colorControlHighlight
+        </item><!--所有可点击Views触摸状态下的 Ripple（涟漪）效果。仅作用于 Lollipop 及更高版本-->
+        <!--<item name="android:textViewStyle">@style/TextAppearance.Text.Regular</item>
+            <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+                    <item name="android:scrollbars">none</item>
+
+        -->
+    </style>
+
+
+</resources>

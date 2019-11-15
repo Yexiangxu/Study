@@ -1,0 +1,8 @@
+1. HttpModule中用TLS替换ssl
+2. 版本更新下载功能，使用IntentService实现下载，使用广播判断网络是否连接 网络连接自动继续下载
+
+https://blog.csdn.net/codeyanbao/article/details/81813501
+
+3. 网络用广播监听，断网提示
+4. 协议类如果未勾选用颤抖动画
+5. 通知栏播放下一曲等功能用前台服务
